@@ -1,12 +1,12 @@
 {
-  "version": "1.3.0",
-  "minAppVersion": "1.3.0",
+  "version": "1.3.1",
+  "minAppVersion": "1.3.1",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "5e5e2b196d6f5b81b72652251b633887d69209771351932079b23dc14eae514b",
-  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.3.0/Xi.Code_1.3.0_x64-setup.exe",
-  "size": 283681566,
-  "changelog": "Xi Code 1.3.0：修复全新安装后智能体中心和岗位编辑器员工缺失，补齐内置员工本地组织归属，并增加 Gateway 内置员工初始化状态诊断。",
+  "hash": "f980c9541bcb08767c8f89b06e9e1746c03b04cadba81db7b85741e085e4a525",
+  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.3.1/Xi.Code_1.3.1_x64-setup.exe",
+  "size": 308971683,
+  "changelog": "Xi Code 1.3.1：修复主页与新建对话同时高亮，并为 Windows MCP 连接器内置 Node.js/npm，解决全新电脑上的 npx 启动失败。",
   "releasedAt": "2026-09-27",
   "sourceRepository": "https://github.com/huahuaduck/xi-code"
 }
