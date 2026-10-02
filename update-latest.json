@@ -1,12 +1,12 @@
 {
-  "version": "1.2.1",
-  "minAppVersion": "1.1.5",
+  "version": "1.4.3",
+  "minAppVersion": "1.4.3",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "2e9e14f8e0a2f9973cf1dbb5d6e10cd6f5f888e1975104192716fed603172ec4",
-  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.2.1/Xi.Code_1.2.1_x64-setup.exe",
-  "size": 283662979,
-  "changelog": "Xi Code 1.2.1：修复主页按钮在启动/路由切换竞态下无响应，优化启动路径并切换到公开发布仓库。",
-  "releasedAt": "2026-09-23",
+  "hash": "225b7f886daf1e9329b4dee1e613be9cfb7978d5db206a79670ecf0e037e37c",
+  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.4.3/Xi-code_1.4.3_x64-setup.exe",
+  "size": 283651712,
+  "changelog": "Xi Code 1.4.3：修复图片重复粘贴、Reasoning none 参数兼容、模型目录缓存与刷新、会话删除结果对账，并新增选中文字右键添加到对话。",
+  "releasedAt": "2026-10-03",
   "sourceRepository": "https://github.com/huahuaduck/xi-code"
 }

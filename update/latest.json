@@ -1,12 +1,12 @@
 {
-  "version": "1.3.1",
-  "minAppVersion": "1.3.1",
+  "version": "1.4.3",
+  "minAppVersion": "1.4.3",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "f980c9541bcb08767c8f89b06e9e1746c03b04cadba81db7b85741e085e4a525",
-  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.3.1/Xi.Code_1.3.1_x64-setup.exe",
-  "size": 308971683,
-  "changelog": "Xi Code 1.3.1：修复主页与新建对话同时高亮，并为 Windows MCP 连接器内置 Node.js/npm，解决全新电脑上的 npx 启动失败。",
-  "releasedAt": "2026-09-27",
+  "hash": "225b7f886daf1e9329b4dee1e613be9cfb7978d5db206a79670ecf0e037e37c",
+  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.4.3/Xi-code_1.4.3_x64-setup.exe",
+  "size": 283651712,
+  "changelog": "Xi Code 1.4.3：修复图片重复粘贴、Reasoning none 参数兼容、模型目录缓存与刷新、会话删除结果对账，并新增选中文字右键添加到对话。",
+  "releasedAt": "2026-10-03",
   "sourceRepository": "https://github.com/huahuaduck/xi-code"
 }
