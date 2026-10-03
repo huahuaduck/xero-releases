@@ -196,4 +196,7 @@ Windows 桌面端
 - 可复现步骤与实际现象
 - 相关日志中的错误片段（请先移除 API Key、Cookie、私人会话内容）
 
-首图和五张功能动图都保留了可编辑 SVG 源文件：[`assets/readme/`](./assets/readme/)。
+
+## 联系方式
+支持二开和提供源码 
+<img width="1083" height="1464" alt="ec553f290e6e71cd8e92f805edea8df9" src="https://github.com/user-attachments/assets/b1e06dd8-50f6-4b20-8af6-d8b35ef71823" />
