@@ -17,6 +17,7 @@ Xi Code 是以 EvoFlow Agent Runtime 与控制平面为基础的 Windows 桌面�
 <p align="center">
   <img src="./assets/readme/feature-flow.gif" width="100%" alt="Xi Code 从主页和对话出发，经过模型与工作空间、任务与知识库，回到结果和引用">
 </p>
+<img width="1280" height="720" alt="preview-mid" src="https://github.com/user-attachments/assets/42b52314-566e-4c31-951e-9000460cd2ed" />
 
 ## 你可以用它做什么
 
