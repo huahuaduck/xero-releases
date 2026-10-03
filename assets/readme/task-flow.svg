@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Xi Code 任务中心闭环</title>
+  <desc id="desc">任务从对话、Goal、智能体员工或工作流进入任务中心，再经过执行、暂停、失败处理和验收。</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#16152d"/></linearGradient><linearGradient id="violet" x1="0" x2="1"><stop stop-color="#8e82ff"/><stop offset="1" stop-color="#5c50f4"/></linearGradient></defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <text x="56" y="52" fill="#a9a2ff" font-family="ui-monospace, monospace" font-size="16" letter-spacing="2">TASK CENTER / OBSERVE / ACCEPT</text>
+  <g id="source" transform="translate(66 104)"><rect width="220" height="92" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".18"/><text x="24" y="36" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">对话 · Goal · 员工</text><text x="24" y="68" fill="#b6bdd1" font-family="ui-monospace, monospace" font-size="14">多步骤工作从这里开始</text></g>
+  <g id="center" transform="translate(490 86)"><rect width="220" height="128" rx="18" fill="url(#violet)"/><text x="24" y="48" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="25" font-weight="700">任务中心</text><text x="24" y="80" fill="#eeedff" font-family="ui-monospace, monospace" font-size="14">状态 · 子任务 · 历史</text><text x="24" y="103" fill="#eeedff" font-family="ui-monospace, monospace" font-size="14">暂停 · 失败原因 · 验收</text></g>
+  <g id="result" transform="translate(914 104)"><rect width="220" height="92" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".18"/><text x="24" y="36" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">结果与复盘</text><text x="24" y="68" fill="#b6bdd1" font-family="ui-monospace, monospace" font-size="14">输出 · 文件 · 下一步</text></g>
+  <path id="task-connectors" d="M286 150H490M710 150H914" fill="none" stroke="#8e82ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 10"/>
+  <circle id="task-dot" cx="388" cy="150" r="6" fill="#fff"/>
+</svg>

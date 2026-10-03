@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Xi Code 知识库检索链路</title>
+  <desc id="desc">把 Markdown、Obsidian 和项目文档索引到知识库，在回答时返回关联文档和相关阅读。</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0b1020"/><stop offset="1" stop-color="#15162e"/></linearGradient><linearGradient id="blue" x1="0" x2="1"><stop stop-color="#7da8ff"/><stop offset="1" stop-color="#6f5cff"/></linearGradient></defs>
+  <rect width="1200" height="300" rx="24" fill="url(#bg)"/>
+  <text x="56" y="52" fill="#a9a2ff" font-family="ui-monospace, monospace" font-size="16" letter-spacing="2">KNOWLEDGE / INDEX / RETRIEVE</text>
+  <g id="docs" transform="translate(64 102)"><rect width="210" height="96" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".18"/><text x="24" y="38" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">本地资料</text><text x="24" y="70" fill="#b6bdd1" font-family="ui-monospace, monospace" font-size="14">Markdown · Obsidian · 文档</text></g>
+  <g id="index" transform="translate(352 102)"><rect width="210" height="96" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".18"/><text x="24" y="38" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">索引</text><text x="24" y="70" fill="#b6bdd1" font-family="ui-monospace, monospace" font-size="14">路径 · 状态 · 可检索</text></g>
+  <g id="retrieve" transform="translate(640 102)"><rect width="210" height="96" rx="16" fill="url(#blue)"/><text x="24" y="38" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">检索</text><text x="24" y="70" fill="#eeedff" font-family="ui-monospace, monospace" font-size="14">关联文档 · 相关阅读</text></g>
+  <g id="answer" transform="translate(928 102)"><rect width="210" height="96" rx="16" fill="#fff" fill-opacity=".1" stroke="#fff" stroke-opacity=".18"/><text x="24" y="38" fill="#fff" font-family="Segoe UI, PingFang SC, sans-serif" font-size="21" font-weight="700">回答</text><text x="24" y="70" fill="#b6bdd1" font-family="ui-monospace, monospace" font-size="14">按你的资料和规范作答</text></g>
+  <path id="knowledge-connectors" d="M274 150H352M562 150H640M850 150H928" fill="none" stroke="#8e82ff" stroke-width="3" stroke-linecap="round" stroke-dasharray="7 10"/>
+  <circle id="knowledge-dot" cx="313" cy="150" r="6" fill="#fff"/>
+</svg>
