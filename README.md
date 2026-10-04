@@ -1,27 +1,27 @@
-# Xi Code
+# Xero
 
 > 面向个人开发者和小团队的 Windows 本地优先 AI 工作台
 
 <p align="center">
-  <img src="./assets/readme/hero.gif" width="100%" alt="Xi Code：把桌面端、Gateway、多模型和工具调用连成一张本地任务工作台">
+  <img src="./assets/readme/hero.svg" width="100%" alt="Xero：把桌面端、Gateway、多模型和工具调用连成一张本地任务工作台">
 </p>
 
 <p align="center">
-  <a href="https://github.com/huahuaduck/xi-code-releases/releases/latest">下载最新版</a> ·
-  <a href="https://github.com/huahuaduck/xi-code-releases/releases">查看全部版本</a> ·
-  <a href="https://github.com/huahuaduck/xi-code-releases/issues">提交问题</a>
+  <a href="https://github.com/huahuaduck/xero-releases/releases/latest">下载最新版</a> ·
+  <a href="https://github.com/huahuaduck/xero-releases/releases">查看全部版本</a> ·
+  <a href="https://github.com/huahuaduck/xero-releases/issues">提交问题</a>
 </p>
 
-Xi Code 是以 EvoFlow Agent Runtime 与控制平面为基础的 Windows 桌面发行版：把多模型对话、任务编排、工具调用、知识资产和可追溯会话放进一个工作台。桌面端负责交互，本地 Gateway 负责会话与配置；本仓库只发布可安装的 Windows x64 版本、校验文件和更新清单。
+Xero 是以 EvoFlow Agent Runtime 与控制平面为基础的 Windows 桌面发行版：把多模型对话、任务编排、工具调用、知识资产和可追溯会话放进一个工作台。桌面端负责交互，本地 Gateway 负责会话与配置；本仓库只发布可安装的 Windows x64 版本、校验文件和更新清单。
 
 <p align="center">
-  <img src="./assets/readme/feature-flow.gif" width="100%" alt="Xi Code 从主页和对话出发，经过模型与工作空间、任务与知识库，回到结果和引用">
+  <img src="./assets/readme/feature-flow.gif" width="100%" alt="Xero 从主页和对话出发，经过模型与工作空间、任务与知识库，回到结果和引用">
 </p>
 <img width="1280" height="720" alt="preview-mid" src="https://github.com/user-attachments/assets/42b52314-566e-4c31-951e-9000460cd2ed" />
 
 ## 你可以用它做什么
 
-| 工作 | Xi Code 提供的路径 |
+| 工作 | Xero 提供的路径 |
 | --- | --- |
 | 快速提问、写代码、整理文档 | 从主页或新建对话开始，在工作区上下文中连续协作 |
 | 先拆解，再执行长任务 | 用 Plan / Goal 明确步骤、风险和停止条件，再交给任务中心跟踪 |
@@ -34,7 +34,7 @@ Xi Code 是以 EvoFlow Agent Runtime 与控制平面为基础的 Windows 桌面�
 
 ## 能力全景
 
-下面是Xi Code 的功能入口；具体菜单名称和可用项会随桌面发行版版本变化。
+下面是Xero 的功能入口；具体菜单名称和可用项会随桌面发行版版本变化。
 
 | 能力层 | 包含什么 | 适合解决的问题 |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ Windows 桌面端
 ### 任务中心：从执行到验收
 
 <p align="center">
-  <img src="./assets/readme/task-flow.gif" width="100%" alt="Xi Code 任务从对话、Goal 或智能体员工进入任务中心，再经过状态跟踪和结果验收">
+  <img src="./assets/readme/task-flow.gif" width="100%" alt="Xero 任务从对话、Goal 或智能体员工进入任务中心，再经过状态跟踪和结果验收">
 </p>
 
 任务中心汇总来自对话、Goal、智能体员工和工作流的多步骤任务，可查看子任务、状态、历史输出、失败原因，并进行暂停、处理和验收。
@@ -97,29 +97,29 @@ Windows 桌面端
 ### 知识库：让回答回到自己的资料
 
 <p align="center">
-  <img src="./assets/readme/knowledge-flow.gif" width="100%" alt="Xi Code 将本地资料索引后，检索关联文档和相关阅读，再用于回答">
+  <img src="./assets/readme/knowledge-flow.gif" width="100%" alt="Xero 将本地资料索引后，检索关联文档和相关阅读，再用于回答">
 </p>
 
 知识库和聊天历史是两层东西：前者保存可检索的规范、项目说明、接口文档和笔记，回答时再通过关联文档与相关阅读把证据带回当前会话。
 ### 智能体与工具治理
 
 <p align="center">
-  <img src="./assets/readme/agent-flow.gif" width="49%" alt="Xi Code 将智能体角色交给智能体员工值班，再回到汇报、审批和复盘">
-  <img src="./assets/readme/tool-flow.gif" width="49%" alt="Xi Code 通过 Skills 和 MCP 接入工具，经审批、沙箱和审计后返回结果">
+  <img src="./assets/readme/agent-flow.gif" width="49%" alt="Xero 将智能体角色交给智能体员工值班，再回到汇报、审批和复盘">
+  <img src="./assets/readme/tool-flow.gif" width="49%" alt="Xero 通过 Skills 和 MCP 接入工具，经审批、沙箱和审计后返回结果">
 </p>
 
 智能体中心负责角色、技能、连接器和工具组合；智能体员工负责值班、交接和汇报。涉及外部副作用时，再通过工具白名单、审批、沙箱与护栏控制执行边界。
 
 ## 安装
 
-当前公开版本为 **1.4.3**，提供 **Windows x64 NSIS 安装包**。
+当前公开版本为 **1.5.0**，提供 **Windows x64 NSIS 安装包**。
 
-1. 打开 [v1.4.3 Release](https://github.com/huahuaduck/xi-code-releases/releases/tag/v1.4.3)，或进入[最新版 Release](https://github.com/huahuaduck/xi-code-releases/releases/latest)。
-2. 下载 `Xi-code_1.4.3_x64-setup.exe`，运行安装程序。
+1. 打开 [v1.5.0 Release](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.0)，或进入[最新版 Release](https://github.com/huahuaduck/xero-releases/releases/latest)。
+2. 下载 `Xero_1.5.0_x64-setup.exe`，运行安装程序。
 3. 可选：下载同一 Release 中的 `.sha256` 校验文件，在 PowerShell 中执行：
 
    ```powershell
-   Get-FileHash .\Xi-code_1.4.3_x64-setup.exe -Algorithm SHA256
+   Get-FileHash .\Xero_1.5.0_x64-setup.exe -Algorithm SHA256
    ```
 
    将输出的哈希值与校验文件中的值比对。
@@ -135,47 +135,47 @@ Windows 桌面端
 
 每个连接通常需要填写服务商、API 地址（兼容接口可自定义 Base URL）、API Key、模型 ID，并可标注模型能力、上下文长度和套餐/权限。连接保存后，可以执行单模型或批量测试，再选择主模型；对话、Plan、Goal 和智能体会按当前主模型或会话覆盖模型调用。列表里的厂商入口代表可配置类型，是否已接通取决于你自己的 Key、网络和服务商权限。
 
-![Xi Code v1.4.3 设置 → 模型：厂商连接、模型 ID、主模型与批量测试](./screenshots/dev-settings-models-v1.4.3.png)
-## v1.4.3 界面预览
+![Xero v1.4.3 设置 → 模型：厂商连接、模型 ID、主模型与批量测试](./screenshots/dev-settings-models-v1.4.3.png)
+## 历史界面预览（v1.4.3）
 
 ### 工作台
 
-![Xi Code v1.4.3 工作台：任务输入、状态卡片、趋势和待办集中在主页](./screenshots/live-workbench-v1.4.3.png)
+![Xero v1.4.3 工作台：任务输入、状态卡片、趋势和待办集中在主页](./screenshots/live-workbench-v1.4.3.png)
 
 ### 任务中心与工作流
 
 <p>
-  <img src="./screenshots/live-task-center-v1.4.3.png" width="49%" alt="Xi Code v1.4.3 任务中心：按来源和状态查看多步骤任务">
-  <img src="./screenshots/live-workflow-v1.4.3.png" width="49%" alt="Xi Code v1.4.3 工作流：将固定流程封装为可重复运行的应用">
+  <img src="./screenshots/live-task-center-v1.4.3.png" width="49%" alt="Xero v1.4.3 任务中心：按来源和状态查看多步骤任务">
+  <img src="./screenshots/live-workflow-v1.4.3.png" width="49%" alt="Xero v1.4.3 工作流：将固定流程封装为可重复运行的应用">
 </p>
 
 ### 知识库、资产中心与扩展应用
 
 <p>
-  <img src="./screenshots/live-knowledge-v1.4.3.png" width="49%" alt="Xi Code v1.4.3 知识库：文档索引、健康度和访问趋势">
-  <img src="./screenshots/live-assets-v1.4.3.png" width="49%" alt="Xi Code v1.4.3 资产中心：统一管理画像、记忆、经验和反思">
+  <img src="./screenshots/live-knowledge-v1.4.3.png" width="49%" alt="Xero v1.4.3 知识库：文档索引、健康度和访问趋势">
+  <img src="./screenshots/live-assets-v1.4.3.png" width="49%" alt="Xero v1.4.3 资产中心：统一管理画像、记忆、经验和反思">
 </p>
 
-![Xi Code v1.4.3 扩展应用：将内部网页应用或本地工具接入控制台](./screenshots/live-extensions-v1.4.3.png)
+![Xero v1.4.3 扩展应用：将内部网页应用或本地工具接入控制台](./screenshots/live-extensions-v1.4.3.png)
 ### 开发版实测入口
 
 以下画面来自本地开发版 `v1.4.3`，用于核对当前功能入口与 README 描述：
 
 <p>
-  <img src="./screenshots/dev-tasks-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 任务中心：协作任务、我的事项与状态筛选">
-  <img src="./screenshots/dev-workflow-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 工作流使用指南与画布入口">
+  <img src="./screenshots/dev-tasks-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 任务中心：协作任务、我的事项与状态筛选">
+  <img src="./screenshots/dev-workflow-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 工作流使用指南与画布入口">
 </p>
 <p>
-  <img src="./screenshots/dev-agents-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 智能体中心：智能体、技能与连接器">
-  <img src="./screenshots/dev-employees-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 智能体员工：值班、工作项与审批">
+  <img src="./screenshots/dev-agents-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 智能体中心：智能体、技能与连接器">
+  <img src="./screenshots/dev-employees-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 智能体员工：值班、工作项与审批">
 </p>
 <p>
-  <img src="./screenshots/dev-knowledge-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 知识库：本地资产、索引健康度与检索活动">
-  <img src="./screenshots/dev-assets-v1.4.3.png" width="49%" alt="Xi Code 开发版 v1.4.3 资产中心：画像、记忆、经验与反思">
+  <img src="./screenshots/dev-knowledge-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 知识库：本地资产、索引健康度与检索活动">
+  <img src="./screenshots/dev-assets-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 资产中心：画像、记忆、经验与反思">
 </p>
 
 
-这些截图均来自本机正在运行的 **Xi Code v1.4.3**。
+这些截图均来自本机正在运行的 **Xero v1.4.3**。
 
 ## 发布内容
 
@@ -186,13 +186,13 @@ Windows 桌面端
 - 更新说明与兼容性备注
 - 自动更新清单 [`update/latest.json`](./update/latest.json)
 
-当前版本的更新摘要：修复图片重复粘贴、Reasoning `none` 参数兼容、模型目录缓存与刷新、会话删除结果对账，并新增选中文字后右键添加到对话。
+当前版本的更新摘要：Xero 1.5.0：更新品牌图标和界面；修复聊天/主页切换、模型默认思考强度、图片链接、删除会话列表对账和小 V 头像闪烁。启动及 IM 页面卡顿优化留待后续版本。 本次提供 Windows x64 安装包；macOS 安装包尚未发布。
 
 ## 源码与反馈
 
-源码仓库为私有仓库：[huahuaduck/xi-code](https://github.com/huahuaduck/xi-code)。如果你遇到安装、启动或模型连接问题，请在 [Issues](https://github.com/huahuaduck/xi-code-releases/issues) 中附上：
+源码仓库为私有仓库：[huahuaduck/xi-code](https://github.com/huahuaduck/xi-code)。如果你遇到安装、启动或模型连接问题，请在 [Issues](https://github.com/huahuaduck/xero-releases/issues) 中附上：
 
-- Xi Code 版本和 Windows 版本
+- Xero 版本和 Windows 版本
 - 可复现步骤与实际现象
 - 相关日志中的错误片段（请先移除 API Key、Cookie、私人会话内容）
 
