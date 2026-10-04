@@ -1,12 +1,12 @@
 {
-  "version": "1.4.3",
-  "minAppVersion": "1.4.3",
+  "version": "1.5.0",
+  "minAppVersion": "1.5.0",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "225b7f886daf1e9329b4dee1e613be9cfb7978d5db206a79670ecf0e037e37c",
-  "url": "https://github.com/huahuaduck/xi-code-releases/releases/download/v1.4.3/Xi-code_1.4.3_x64-setup.exe",
-  "size": 283651712,
-  "changelog": "Xi Code 1.4.3：修复图片重复粘贴、Reasoning none 参数兼容、模型目录缓存与刷新、会话删除结果对账，并新增选中文字右键添加到对话。",
-  "releasedAt": "2026-10-03",
+  "hash": "b47cf9cf3d52decfe0a6c61e80cca6f88a780c9a395e191fe285139a04bd6f4f",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.0/Xero_1.5.0_x64-setup.exe",
+  "size": 283800875,
+  "changelog": "Xero 1.5.0：更新品牌图标和界面；修复聊天/主页切换、模型默认思考强度、图片链接、删除会话列表对账和小 V 头像闪烁。启动及 IM 页面卡顿优化留待后续版本。",
+  "releasedAt": "2026-10-04",
   "sourceRepository": "https://github.com/huahuaduck/xi-code"
 }
