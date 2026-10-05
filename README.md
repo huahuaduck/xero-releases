@@ -18,48 +18,23 @@
 
 把多模型对话、任务编排、工具调用和自己的资料放进同一个工作空间。用 Xero 写代码、整理文档、拆解任务，再把可重复的步骤沉淀为工作流。
 
-![Xero v1.5.0 主页与对话工作台：从侧栏进入任务、工作流、智能体和知识库](./screenshots/xero-v1.5-home.png)
+<img width="1440" height="810" alt="image" src="https://github.com/user-attachments/assets/74c70d65-d503-4f76-8039-5114ad227117" />
+
 
 <p align="center"><sub>Xero v1.5.0 实际界面 · 主页与对话工作台</sub></p>
 
 ## 软件截图
 
 下面的截图来自 Xero v1.5.0 Windows 桌面版，展示从主页开始，到任务执行、知识检索和界面设置的主要路径。
-
-### 主页与对话工作台
-
-从左侧进入主页、新建对话、任务中心、工作流、智能体和知识库；中间区域用于持续对话，右侧可以查看当前 Agent、Skills、Tools 与 MCP 配置。
-
-![Xero v1.5.0 主页与对话工作台](./screenshots/xero-v1.5-home.png)
-
-### 知识库
-
-集中管理本地文档、索引状态、健康度和最近检索活动，让回答回到自己的资料。
-
-![Xero v1.5.0 知识库](./screenshots/xero-v1.5-knowledge.png)
-
-### 外观设置
-
-在设置中调整主题、色卡、背景和字体大小，让工作台适应自己的阅读习惯。
-
-![Xero v1.5.0 外观设置](./screenshots/xero-v1.5-appearance.png)
-
-## 一处工作空间，串起完整过程
-
-### 01 / 对话与执行
-
-从问答、代码和文档开始，按任务选择 Ask、Plan、Agent 或 Goal。绑定工作空间后，让模型结合文件上下文协作，并在任务中心查看多步骤工作的状态与输出。
-
-### 02 / 智能体与工具
-
-为不同角色配置模型、技能和工具。通过 Skills、MCP 与连接器接入外部能力，用工具审批和工作空间边界管理执行范围。
-
-### 03 / 知识与复用
-
-把 Markdown、Obsidian 和项目文档纳入知识库。用资产中心整理上下文，用工作流复用步骤，用自动化安排周期性任务。
-
-<details>
-<summary><strong>按场景选择入口</strong></summary>
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/9eaa6961-c4c7-4e09-8153-840077bc6ba2" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/50eb2897-f7b1-4a9b-b964-c5ff108ab003" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/603eb09c-cc2d-4874-af02-6340a667cf42" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/e468266d-3c6c-4c36-8468-faa497192307" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/24a6e6da-c215-43a0-8b6c-0403f410d058" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/d2fc1ce0-f589-4357-b30e-197af5401383" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/25ce305e-08e6-4c74-a866-2007336a145e" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/1a922ade-8ee1-4a50-a2f9-837a2711cae7" />
+<img width="1086" height="1448" alt="image" src="https://github.com/user-attachments/assets/23f892c3-8cc8-477a-ad87-395c324040e9" />
 
 | 想完成的工作 | 从这里开始 |
 | --- | --- |
