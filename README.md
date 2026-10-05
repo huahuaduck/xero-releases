@@ -1,202 +1,128 @@
-# Xero
-
-> 面向个人开发者和小团队的 Windows 本地优先 AI 工作台
-
 <p align="center">
-  <img src="./assets/readme/hero.svg" width="100%" alt="Xero：把桌面端、Gateway、多模型和工具调用连成一张本地任务工作台">
+  <img src="./assets/readme/xero-logo.svg" width="180" alt="Xero Logo">
 </p>
 
-<p align="center">
-  <a href="https://github.com/huahuaduck/xero-releases/releases/latest">下载最新版</a> ·
-  <a href="https://github.com/huahuaduck/xero-releases/releases">查看全部版本</a> ·
-  <a href="https://github.com/huahuaduck/xero-releases/issues">提交问题</a>
-</p>
-
-Xero 是以 EvoFlow Agent Runtime 与控制平面为基础的 Windows 桌面发行版：把多模型对话、任务编排、工具调用、知识资产和可追溯会话放进一个工作台。桌面端负责交互，本地 Gateway 负责会话与配置；本仓库只发布可安装的 Windows x64 版本、校验文件和更新清单。
+<h1 align="center">Xero</h1>
+<p align="center"><strong>从一个想法，到一份交付。</strong><br>面向个人开发者与小团队的 Windows 本地优先 AI 工作台。</p>
 
 <p align="center">
-  <img src="./assets/readme/feature-flow.gif" width="100%" alt="Xero 从主页和对话出发，经过模型与工作空间、任务与知识库，回到结果和引用">
+  <a href="https://github.com/huahuaduck/xero-releases/releases/latest"><strong>下载 Windows 版 ↗</strong></a> &nbsp; · &nbsp;
+  <a href="#开始使用">开始使用</a> &nbsp; · &nbsp;
+  <a href="https://github.com/huahuaduck/xero-releases/releases">更新记录</a> &nbsp; · &nbsp;
+  <a href="https://github.com/huahuaduck/xero-releases/issues">问题反馈</a>
 </p>
-<img width="1280" height="720" alt="preview-mid" src="https://github.com/user-attachments/assets/42b52314-566e-4c31-951e-9000460cd2ed" />
 
-## 你可以用它做什么
+<p align="center"><sub>v1.5.0 &nbsp; / &nbsp; Windows x64 &nbsp; / &nbsp; 自备模型连接</sub></p>
 
-| 工作 | Xero 提供的路径 |
+---
+
+把多模型对话、任务编排、工具调用和自己的资料放进同一个工作空间。用 Xero 写代码、整理文档、拆解任务，再把可重复的步骤沉淀为工作流。
+
+![Xero v1.5.0 知识库界面：文档资产、索引状态与检索活动](./screenshots/xero-v1.5-knowledge.png)
+
+<p align="center"><sub>Xero v1.5.0 实际界面 · 知识库</sub></p>
+
+## 一处工作空间，串起完整过程
+
+### 01 / 对话与执行
+
+从问答、代码和文档开始，按任务选择 Ask、Plan、Agent 或 Goal。绑定工作空间后，让模型结合文件上下文协作，并在任务中心查看多步骤工作的状态与输出。
+
+### 02 / 智能体与工具
+
+为不同角色配置模型、技能和工具。通过 Skills、MCP 与连接器接入外部能力，用工具审批和工作空间边界管理执行范围。
+
+### 03 / 知识与复用
+
+把 Markdown、Obsidian 和项目文档纳入知识库。用资产中心整理上下文，用工作流复用步骤，用自动化安排周期性任务。
+
+<details>
+<summary><strong>按场景选择入口</strong></summary>
+
+| 想完成的工作 | 从这里开始 |
 | --- | --- |
-| 快速提问、写代码、整理文档 | 从主页或新建对话开始，在工作区上下文中连续协作 |
-| 先拆解，再执行长任务 | 用 Plan / Goal 明确步骤、风险和停止条件，再交给任务中心跟踪 |
-| 把重复工作沉淀下来 | 用工作流 / 应用封装“收集 → 处理 → 输出”等固定流程 |
-| 配置不同角色协作 | 让研究员、开发者、审查员等智能体使用不同模型、工具和职责 |
-| 让回答参考自己的资料 | 将 Markdown、Obsidian 和项目文档放进知识库，检索关联文档和相关阅读 |
-| 定期执行固定检查 | 用自动化按时间或条件触发任务，并在任务中心查看结果 |
-| 管理长期可复用上下文 | 用资产中心保存画像、记忆、经验、反思、模板和项目资料 |
-| 接入内部工具 | 通过扩展应用把网页应用或本地小工具挂进工作台 |
+| 提问、总结、比较资料 | 对话 / Ask |
+| 先明确步骤与验收标准 | Plan |
+| 执行多步骤工作并查看进展 | Agent / Goal / 任务中心 |
+| 为研究、开发和审查配置不同角色 | 智能体 |
+| 复用固定步骤，只更换输入 | 工作流 / 应用中心 |
+| 按时间执行固定指令 | 自动化 |
+| 参考自己的笔记、规范和项目资料 | 知识库 |
+| 配置长期岗位、值班和汇报 | 智能体员工 |
+| 接入外部服务或本地工具 | Skills / MCP / 扩展应用 |
 
-## 能力全景
+具体入口与可用能力以安装版本为准。
 
-下面是Xero 的功能入口；具体菜单名称和可用项会随桌面发行版版本变化。
+</details>
 
-| 能力层 | 包含什么 | 适合解决的问题 |
-| --- | --- | --- |
-| **实时对话** | Ask / Agent / Plan / Goal、文件上传、工作空间、右侧 Stage、斜杠快捷指令 | 从一句问题开始，逐步升级到执行、规划或后台长任务 |
-| **任务编排** | Plan 计划、Supervisor、子任务 DAG、项目团队、任务中心、暂停 / 恢复 / 重试 / 验收 | 把复杂工作拆成依赖清晰、能追踪和能复盘的交付过程 |
-| **固定流程** | 工作流 / 应用中心：画布编排 → 发布 → 填参再跑；自动化：定时或一次性 Prompt | 把重复工作产品化，减少每次重新描述同一套步骤 |
-| **智能体组织** | 智能体角色、预设角色、智能体员工、值班频率、工作汇报、关键审批、小 V 临时委派 | 让不同 Agent 分别负责研究、编码、审核或长期值班 |
-| **知识与记忆** | 文档知识库、RAG、Obsidian / Markdown Vault、关联文档、相关阅读、资产中心、记忆、经验、反思、思维导图 | 让回答引用自己的资料，并让偏好、经验和过程跨会话沉淀 |
-| **技能与工具** | Skills、技能市场、MCP（stdio / SSE / HTTP）、工具白名单、连接器、扩展应用 | 按场景安装和收敛能力，把外部服务接入 Agent |
-| **编码协作** | Claude Code 外部编码子代理、写码 / 改码 / 跑测试 / 查日志的流式回传 | 让总控 Agent 委派编码工作，并在桌面端对照验收 |
-| **渠道与触达** | 飞书等 IM 渠道、目标与定时结果推送、同一线程心智 | 不打开桌面端也能接收任务结果或继续对话 |
-| **安全与治理** | 工作空间边界、沙箱、工具审批、安全护栏、审计 / 运行观测、模型与费用统计 | 控制副作用工具，查看谁调用了什么，并在关键节点人工放行 |
+## 开始使用
 
+**1. 安装桌面端**
 
-## 核心结构
+前往 [最新 Release](https://github.com/huahuaduck/xero-releases/releases/latest) 下载安装包。当前版本为 **v1.5.0**，文件名为 `Xero_1.5.0_x64-setup.exe`，适用于 **Windows x64**。
 
-```text
-Windows 桌面端
-      │ 交互、会话、工作区
-      ▼
-本地 Gateway
-      ├── 模型连接：OpenAI 兼容接口 / 本地模型
-      ├── 工具调用：文件 / 浏览器 / MCP / 任务
-      └── 结构化结果：回到同一条会话时间线
+该版本未提供自动更新签名，请下载后手动安装。
+
+**2. 连接自己的模型**
+
+打开 **设置 → 模型**，填写服务商、API 地址、API Key 与模型 ID。保存后测试连接，再选择主模型。可以配置 OpenAI 兼容接口、Anthropic、Gemini、国内模型服务或 Ollama 本地模型；实际可用性取决于服务商权限与网络环境。
+
+**3. 完成第一个任务**
+
+先用一个简单问题确认连接。需要处理本地文件时，绑定工作空间，再尝试：
+
+> 阅读这个项目的 README，整理运行步骤和需要我补充的配置，先给出计划。
+
+<details>
+<summary><strong>校验安装包 SHA-256</strong></summary>
+
+下载同一 Release 中的 `.sha256` 文件，在安装包所在目录运行：
+
+```powershell
+Get-FileHash .\Xero_1.5.0_x64-setup.exe -Algorithm SHA256
 ```
 
-这种分层让界面、模型连接和工具调用可以分别演进，同时把会话与配置留在本机。首次启动后，在应用内配置你自己的模型连接；本仓库不包含 API Key、Cookie 或私有源码。
+将输出与校验文件比对。安装包与校验文件应来自同一版本。
 
-## 第一次使用建议
+</details>
 
-1. 打开 **设置 → 模型**，添加服务商、API 地址、API Key 和模型名，并先测试连接。
-2. 回到主页，用一句简单问题确认模型能正常回复。
-3. 需要读取或修改本地文件时，绑定工作空间，再选择 Ask、Plan、Agent 或 Goal 模式。
-4. 需要持续推进的工作放进 **任务中心**；经常重复的步骤做成 **工作流**。
-5. 需要引用团队资料时，再把 Markdown、Obsidian 或项目文档接入 **知识库**。
+## 在本机组织工作，按需连接模型
 
-### 按问题选择入口
+桌面端承载交互和工作空间，本地 Gateway 管理会话、配置与工具调用。选择云端模型时，请求会发送给你配置的服务商；选择本地模型时，需要先准备对应的模型服务。
 
-| 你的问题 | 优先入口 | 不要混用 |
-| --- | --- | --- |
-| 只想问答、总结或比较 | 实时对话 / Ask | 不必先建 Goal 或自动化 |
-| 需要先对齐步骤和验收标准 | Plan | 不要直接让 Agent 无边界执行 |
-| 希望后台持续推进到边界 | Goal | 不等同于定时自动化 |
-| 每天 / 每周到点执行固定指令 | 自动化 | 不等同于智能体员工值班 |
-| 流程已经跑通，只换输入参数 | 应用中心 | 不必每次重新 Plan |
-| 需要一个岗位长期值班并写汇报 | 智能体员工 | 不只是一个聊天角色 |
-| 让 AI 参考自己的笔记和规范 | 知识库 / RAG / Vault | 不要只把文件拖进一次性会话 |
-| 需要外部系统能力 | Skills / MCP / 扩展应用 | 先配置权限和工具白名单 |
+本地优先不代表所有处理都离线。模型、联网搜索和外部工具的数据流向取决于你的连接与权限配置。
 
-常用快捷指令以客户端 `/help` 为准；EvoFlow 文档当前列出的桌面端入口包括 `/claude`、`/lead`、`/goal <目标>`，不同渠道的指令规则可能不同。
+<details>
+<summary><strong>查看界面设置</strong></summary>
 
-### 任务中心：从执行到验收
+支持主题、色卡、背景和字体大小设置，可按自己的阅读习惯调整工作台。
 
-<p align="center">
-  <img src="./assets/readme/task-flow.gif" width="100%" alt="Xero 任务从对话、Goal 或智能体员工进入任务中心，再经过状态跟踪和结果验收">
-</p>
+![Xero v1.5.0 外观设置：主题、色卡、背景与字体大小](./screenshots/xero-v1.5-appearance.png)
 
-任务中心汇总来自对话、Goal、智能体员工和工作流的多步骤任务，可查看子任务、状态、历史输出、失败原因，并进行暂停、处理和验收。
+</details>
 
-### 知识库：让回答回到自己的资料
+## 版本与项目说明
 
-<p align="center">
-  <img src="./assets/readme/knowledge-flow.gif" width="100%" alt="Xero 将本地资料索引后，检索关联文档和相关阅读，再用于回答">
-</p>
+**v1.5.0** 更新品牌图标与界面，修复聊天和主页切换、模型默认思考强度、图片链接、删除会话后的列表同步，以及小 V 头像闪烁。详见 [完整发布说明](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.0)。
 
-知识库和聊天历史是两层东西：前者保存可检索的规范、项目说明、接口文档和笔记，回答时再通过关联文档与相关阅读把证据带回当前会话。
-### 智能体与工具治理
+- 当前提供 Windows x64 安装包；macOS 安装包尚未发布。
+- 启动速度与 IM 页面卡顿的进一步优化仍在后续计划中。
+- 本仓库用于分发安装包、版本说明、校验文件和[自动更新清单](./update/latest.json)。
+- Xero 基于 EvoFlow Agent Runtime 与控制平面构建，源码仓库目前为私有。
 
-<p align="center">
-  <img src="./assets/readme/agent-flow.gif" width="49%" alt="Xero 将智能体角色交给智能体员工值班，再回到汇报、审批和复盘">
-  <img src="./assets/readme/tool-flow.gif" width="49%" alt="Xero 通过 Skills 和 MCP 接入工具，经审批、沙箱和审计后返回结果">
-</p>
+## 反馈与联系
 
-智能体中心负责角色、技能、连接器和工具组合；智能体员工负责值班、交接和汇报。涉及外部副作用时，再通过工具白名单、审批、沙箱与护栏控制执行边界。
+安装、启动或模型连接遇到问题，请[提交 Issue](https://github.com/huahuaduck/xero-releases/issues)，附上 Xero / Windows 版本、复现步骤和相关错误片段。分享日志前请移除密钥与私人会话内容。
 
-## 安装
+**二次开发与源码合作**，可通过下方联系方式沟通。
 
-当前公开版本为 **1.5.0**，提供 **Windows x64 NSIS 安装包**。
-
-1. 打开 [v1.5.0 Release](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.0)，或进入[最新版 Release](https://github.com/huahuaduck/xero-releases/releases/latest)。
-2. 下载 `Xero_1.5.0_x64-setup.exe`，运行安装程序。
-3. 可选：下载同一 Release 中的 `.sha256` 校验文件，在 PowerShell 中执行：
-
-   ```powershell
-   Get-FileHash .\Xero_1.5.0_x64-setup.exe -Algorithm SHA256
-   ```
-
-   将输出的哈希值与校验文件中的值比对。
-
-## 模型对接
-
-在 **设置 → 模型** 中可以添加或管理对话模型、向量模型和语音能力。开发版当前显示的连接入口包括：
-
-- 阿里云百炼、火山引擎、智谱 AI、胜算云、硅基流动
-- MiniMax、月之暗面 Kimi、DeepSeek
-- OpenAI / 兼容接口、Anthropic 官方、Google Gemini、NVIDIA NIM
-- Ollama（本地模型）
-
-每个连接通常需要填写服务商、API 地址（兼容接口可自定义 Base URL）、API Key、模型 ID，并可标注模型能力、上下文长度和套餐/权限。连接保存后，可以执行单模型或批量测试，再选择主模型；对话、Plan、Goal 和智能体会按当前主模型或会话覆盖模型调用。列表里的厂商入口代表可配置类型，是否已接通取决于你自己的 Key、网络和服务商权限。
-
-![Xero v1.4.3 设置 → 模型：厂商连接、模型 ID、主模型与批量测试](./screenshots/dev-settings-models-v1.4.3.png)
-## 历史界面预览（v1.4.3）
-
-### 工作台
-
-![Xero v1.4.3 工作台：任务输入、状态卡片、趋势和待办集中在主页](./screenshots/live-workbench-v1.4.3.png)
-
-### 任务中心与工作流
-
+<details>
+<summary><strong>展开联系方式</strong></summary>
 <p>
-  <img src="./screenshots/live-task-center-v1.4.3.png" width="49%" alt="Xero v1.4.3 任务中心：按来源和状态查看多步骤任务">
-  <img src="./screenshots/live-workflow-v1.4.3.png" width="49%" alt="Xero v1.4.3 工作流：将固定流程封装为可重复运行的应用">
+  <img src="https://github.com/user-attachments/assets/b1e06dd8-50f6-4b20-8af6-d8b35ef71823" width="280" alt="Xero 二次开发与源码合作联系方式">
 </p>
+</details>
 
-### 知识库、资产中心与扩展应用
+---
 
-<p>
-  <img src="./screenshots/live-knowledge-v1.4.3.png" width="49%" alt="Xero v1.4.3 知识库：文档索引、健康度和访问趋势">
-  <img src="./screenshots/live-assets-v1.4.3.png" width="49%" alt="Xero v1.4.3 资产中心：统一管理画像、记忆、经验和反思">
-</p>
-
-![Xero v1.4.3 扩展应用：将内部网页应用或本地工具接入控制台](./screenshots/live-extensions-v1.4.3.png)
-### 开发版实测入口
-
-以下画面来自本地开发版 `v1.4.3`，用于核对当前功能入口与 README 描述：
-
-<p>
-  <img src="./screenshots/dev-tasks-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 任务中心：协作任务、我的事项与状态筛选">
-  <img src="./screenshots/dev-workflow-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 工作流使用指南与画布入口">
-</p>
-<p>
-  <img src="./screenshots/dev-agents-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 智能体中心：智能体、技能与连接器">
-  <img src="./screenshots/dev-employees-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 智能体员工：值班、工作项与审批">
-</p>
-<p>
-  <img src="./screenshots/dev-knowledge-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 知识库：本地资产、索引健康度与检索活动">
-  <img src="./screenshots/dev-assets-v1.4.3.png" width="49%" alt="Xero 开发版 v1.4.3 资产中心：画像、记忆、经验与反思">
-</p>
-
-
-这些截图均来自本机正在运行的 **Xero v1.4.3**。
-
-## 发布内容
-
-每个版本可能包含：
-
-- Windows x64 NSIS 安装包
-- SHA-256 校验文件
-- 更新说明与兼容性备注
-- 自动更新清单 [`update/latest.json`](./update/latest.json)
-
-当前版本的更新摘要：Xero 1.5.0：更新品牌图标和界面；修复聊天/主页切换、模型默认思考强度、图片链接、删除会话列表对账和小 V 头像闪烁。启动及 IM 页面卡顿优化留待后续版本。 本次提供 Windows x64 安装包；macOS 安装包尚未发布。
-
-## 源码与反馈
-
-源码仓库为私有仓库：[huahuaduck/xi-code](https://github.com/huahuaduck/xi-code)。如果你遇到安装、启动或模型连接问题，请在 [Issues](https://github.com/huahuaduck/xero-releases/issues) 中附上：
-
-- Xero 版本和 Windows 版本
-- 可复现步骤与实际现象
-- 相关日志中的错误片段（请先移除 API Key、Cookie、私人会话内容）
-
-
-## 联系方式
-支持二开和提供源码 
-<img width="1083" height="1464" alt="ec553f290e6e71cd8e92f805edea8df9" src="https://github.com/user-attachments/assets/b1e06dd8-50f6-4b20-8af6-d8b35ef71823" />
+<p align="center"><strong>让下一项工作，从 Xero 开始。</strong><br><a href="https://github.com/huahuaduck/xero-releases/releases/latest">下载最新版本 ↗</a></p>
