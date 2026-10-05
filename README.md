@@ -18,9 +18,31 @@
 
 把多模型对话、任务编排、工具调用和自己的资料放进同一个工作空间。用 Xero 写代码、整理文档、拆解任务，再把可重复的步骤沉淀为工作流。
 
-![Xero v1.5.0 知识库界面：文档资产、索引状态与检索活动](./screenshots/xero-v1.5-knowledge.png)
+![Xero v1.5.0 主页与对话工作台：从侧栏进入任务、工作流、智能体和知识库](./screenshots/xero-v1.5-home.png)
 
-<p align="center"><sub>Xero v1.5.0 实际界面 · 知识库</sub></p>
+<p align="center"><sub>Xero v1.5.0 实际界面 · 主页与对话工作台</sub></p>
+
+## 软件截图
+
+下面的截图来自 Xero v1.5.0 Windows 桌面版，展示从主页开始，到任务执行、知识检索和界面设置的主要路径。
+
+### 主页与对话工作台
+
+从左侧进入主页、新建对话、任务中心、工作流、智能体和知识库；中间区域用于持续对话，右侧可以查看当前 Agent、Skills、Tools 与 MCP 配置。
+
+![Xero v1.5.0 主页与对话工作台](./screenshots/xero-v1.5-home.png)
+
+### 知识库
+
+集中管理本地文档、索引状态、健康度和最近检索活动，让回答回到自己的资料。
+
+![Xero v1.5.0 知识库](./screenshots/xero-v1.5-knowledge.png)
+
+### 外观设置
+
+在设置中调整主题、色卡、背景和字体大小，让工作台适应自己的阅读习惯。
+
+![Xero v1.5.0 外观设置](./screenshots/xero-v1.5-appearance.png)
 
 ## 一处工作空间，串起完整过程
 
