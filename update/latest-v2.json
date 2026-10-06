@@ -1,19 +1,19 @@
 {
-  "version": "1.5.1",
+  "version": "1.5.2",
   "minAppVersion": "1.5.0",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "sha256:469bdfc21b0da95bff6fd77824d694f85133530628db26cda310c5ef306b9bc8",
-  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.1/Xero_1.5.1_x64-setup.exe",
-  "size": 337062881,
-  "changelog": "# Xero 1.5.1\n\n- 修复 GPT、Claude 和火山引擎模型思考强度传递，避免所选强度被默认配置覆盖。\n- 按 Claude 模型协议传递思考预算或 adaptive effort；修复 Kimi 输出上限导致的请求错误。\n- 粘贴图片保存为会话附件，重启后仍可供模型工具读取。\n- 修复任务规划、执行状态收尾和独立验收入口，避免任务完成后仍停在执行中。\n- 修复手机扫码访问与登录链接，改善远程访问初始化。\n- 改善后台 MCP 预热与部分启动阻塞；模型设置加载期间显示明确提示。\n- 补齐界面、提示词与用户文档的 Xero 品牌名称。\n\n更新会保留本机配置和会话数据。请先保存当前工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；项目源码保留在私有仓库。\n\n1.5.0 用户：由于旧更新签名私钥未保留，本次请在设置中检测更新后下载安装包覆盖升级。1.5.1 已配置新的签名更新通道，用于后续版本一键升级。\n",
-  "notes": "# Xero 1.5.1\n\n- 修复 GPT、Claude 和火山引擎模型思考强度传递，避免所选强度被默认配置覆盖。\n- 按 Claude 模型协议传递思考预算或 adaptive effort；修复 Kimi 输出上限导致的请求错误。\n- 粘贴图片保存为会话附件，重启后仍可供模型工具读取。\n- 修复任务规划、执行状态收尾和独立验收入口，避免任务完成后仍停在执行中。\n- 修复手机扫码访问与登录链接，改善远程访问初始化。\n- 改善后台 MCP 预热与部分启动阻塞；模型设置加载期间显示明确提示。\n- 补齐界面、提示词与用户文档的 Xero 品牌名称。\n\n更新会保留本机配置和会话数据。请先保存当前工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；项目源码保留在私有仓库。\n\n1.5.0 用户：由于旧更新签名私钥未保留，本次请在设置中检测更新后下载安装包覆盖升级。1.5.1 已配置新的签名更新通道，用于后续版本一键升级。\n",
-  "releasedAt": "2026-10-06T00:24:45Z",
-  "pub_date": "2026-10-06T00:24:45Z",
+  "hash": "sha256:4e2417570928434690ae62ba1a27c3ff7aefbc2a791ddb5a7ddec5fcbfb1ee12",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.2/Xero_1.5.2_x64-setup.exe",
+  "size": 337079027,
+  "notes": "# Xero 1.5.2\n\n- 支持通过自然语言交办团队任务，根据任务和员工能力选择所需员工，并进入任务中心持续执行。\n- 保留完整原始需求，改善主控与员工之间的上下文传递。\n- 修复任务重试清空计划和已完成节点的问题；中断恢复时保留已有成果。\n- 修复向原生员工发送补充消息、要求修改后恢复执行的路径。\n- 改善等待反馈时的状态处理，并在独立验收后正确完成主任务。\n- 修复任务详情中结构化错误显示为 `[object Object]` 的问题。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。1.5.1 用户可在“设置 → 关于”检查更新。\n",
+  "changelog": "# Xero 1.5.2\n\n- 支持通过自然语言交办团队任务，根据任务和员工能力选择所需员工，并进入任务中心持续执行。\n- 保留完整原始需求，改善主控与员工之间的上下文传递。\n- 修复任务重试清空计划和已完成节点的问题；中断恢复时保留已有成果。\n- 修复向原生员工发送补充消息、要求修改后恢复执行的路径。\n- 改善等待反馈时的状态处理，并在独立验收后正确完成主任务。\n- 修复任务详情中结构化错误显示为 `[object Object]` 的问题。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。1.5.1 用户可在“设置 → 关于”检查更新。\n",
+  "releasedAt": "2026-10-06T03:41:54Z",
+  "pub_date": "2026-10-06T03:41:54Z",
   "platforms": {
     "windows-x86_64": {
-      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.1/Xero_1.5.1_x64-setup.nsis.zip",
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVdDTzhsREtrU3UvRTROdlo4V3VWQkx4dm5MZUlXUDV1cTB5dDdYSGN1Y0FXTU1veWJlTkl5eGNzL2YrQmIyMkZhWktzeWdPOTcyeHE1eXVtVThXNFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjQ2Mjc0CWZpbGU6WGVyb18xLjUuMV94NjQtc2V0dXAubnNpcy56aXAKWnRlZFhNQnJrQkd6L0ZEai82YjRQc0wzaWpnUmFHdUFsUjlQTWFOZHB6RjFaUUxmMlR0Rk1mV1hMM2ZxOU95ZkdFT0lKb0JTUnRDUjZqUFBWMnBoQUE9PQo="
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVc0RW16Q2lUUGpIdWFBT0xIL29WNFFhdStLTThhcThZcklmYkVjTUZGekFrWjFIdmwyc1FnR1pBOEU4QkdadEoxNXQzMTBEMkFZOWxOLzg0UG5vZEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU4MDk2CWZpbGU6WGVyb18xLjUuMl94NjQtc2V0dXAubnNpcy56aXAKM3BNeDlzNU1OMy8wU0NiUlZlQjBmczlNWWZnZ01GWGVKQUtYZ2xQZUg3Q0VnbUIvWk9qelZGM3pmak1CeXlDQktHSlIwOGplc0NWanJ2SDBqbXhQQ2c9PQo=",
+      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.2/Xero_1.5.2_x64-setup.nsis.zip"
     }
   }
 }
