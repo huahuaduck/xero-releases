@@ -1,19 +1,19 @@
 {
-  "version": "1.5.2",
+  "version": "1.5.3",
   "minAppVersion": "1.5.0",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "sha256:4e2417570928434690ae62ba1a27c3ff7aefbc2a791ddb5a7ddec5fcbfb1ee12",
-  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.2/Xero_1.5.2_x64-setup.exe",
-  "size": 337079027,
-  "notes": "# Xero 1.5.2\n\n- 支持通过自然语言交办团队任务，根据任务和员工能力选择所需员工，并进入任务中心持续执行。\n- 保留完整原始需求，改善主控与员工之间的上下文传递。\n- 修复任务重试清空计划和已完成节点的问题；中断恢复时保留已有成果。\n- 修复向原生员工发送补充消息、要求修改后恢复执行的路径。\n- 改善等待反馈时的状态处理，并在独立验收后正确完成主任务。\n- 修复任务详情中结构化错误显示为 `[object Object]` 的问题。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。1.5.1 用户可在“设置 → 关于”检查更新。\n",
-  "changelog": "# Xero 1.5.2\n\n- 支持通过自然语言交办团队任务，根据任务和员工能力选择所需员工，并进入任务中心持续执行。\n- 保留完整原始需求，改善主控与员工之间的上下文传递。\n- 修复任务重试清空计划和已完成节点的问题；中断恢复时保留已有成果。\n- 修复向原生员工发送补充消息、要求修改后恢复执行的路径。\n- 改善等待反馈时的状态处理，并在独立验收后正确完成主任务。\n- 修复任务详情中结构化错误显示为 `[object Object]` 的问题。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。1.5.1 用户可在“设置 → 关于”检查更新。\n",
-  "releasedAt": "2026-10-06T03:41:54Z",
-  "pub_date": "2026-10-06T03:41:54Z",
+  "hash": "sha256:b40599960032e9498f647535cab9e1165191543397f1aafaf7fb533b4fee5e68",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.3/Xero_1.5.3_x64-setup.nsis.zip",
+  "size": 335349917,
+  "notes": "# Xero 1.5.3\n\n- 修复工作流文本交接和自动化结果摘要。\n- 更新任务中心状态显示和开发版验收。\n",
+  "changelog": "# Xero 1.5.3\n\n- 修复工作流文本交接和自动化结果摘要。\n- 更新任务中心状态显示和开发版验收。\n",
+  "releasedAt": "2026-10-06T00:00:00Z",
+  "pub_date": "2026-10-06T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVc0RW16Q2lUUGpIdWFBT0xIL29WNFFhdStLTThhcThZcklmYkVjTUZGekFrWjFIdmwyc1FnR1pBOEU4QkdadEoxNXQzMTBEMkFZOWxOLzg0UG5vZEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjU4MDk2CWZpbGU6WGVyb18xLjUuMl94NjQtc2V0dXAubnNpcy56aXAKM3BNeDlzNU1OMy8wU0NiUlZlQjBmczlNWWZnZ01GWGVKQUtYZ2xQZUg3Q0VnbUIvWk9qelZGM3pmak1CeXlDQktHSlIwOGplc0NWanJ2SDBqbXhQQ2c9PQo=",
-      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.2/Xero_1.5.2_x64-setup.nsis.zip"
+      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSU2t0WmExUjFjRVpMYVZveU9UQkdjRmRaTW1GWFozbE1kbWc0V1ZsNGVtUkZSbWRETWtsMGFsWlVjMWhNWVhCRlJ6UkpiUzlEZEdKSUswSXhkVmRPY0ROcU4wVkVTMnRrU0d4Q2JUYzVRVlpuV0RCTWF6SnZOV1lyWVd4YVQxRnZQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpreE1qWTBNelUzQ1dacGJHVTZXR1Z5YjE4eExqVXVNMTk0TmpRdGMyVjBkWEF1Ym5OcGN5NTZhWEFLUnpJeFUzUmhOMGQyWWtOMVJtdHRUa0pMYkhvMU1VSXpURTUyUnpGcWQxZHZXVWR3VTJGd2QycDBjVnAzUXl0SVZHWTNWRWhuT1hkbVkzcHNZVXBwYW5sR1pVTTBPVUpRV1RaR2JFUlpTM0p3UkVodlFuYzlQUW89",
+      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.3/Xero_1.5.3_x64-setup.nsis.zip"
     }
   }
 }
