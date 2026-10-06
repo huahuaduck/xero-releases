@@ -3,16 +3,16 @@
   "minAppVersion": "1.5.0",
   "updateKind": "full",
   "assetKind": "installer",
-  "hash": "sha256:b40599960032e9498f647535cab9e1165191543397f1aafaf7fb533b4fee5e68",
-  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.3/Xero_1.5.3_x64-setup.nsis.zip",
-  "size": 335349917,
-  "notes": "# Xero 1.5.3\n\n- 修复工作流文本交接和自动化结果摘要。\n- 更新任务中心状态显示和开发版验收。\n",
-  "changelog": "# Xero 1.5.3\n\n- 修复工作流文本交接和自动化结果摘要。\n- 更新任务中心状态显示和开发版验收。\n",
-  "releasedAt": "2026-10-06T00:00:00Z",
-  "pub_date": "2026-10-06T00:00:00Z",
+  "hash": "sha256:0fcaafd66b8d2fa0e24bae4a0f90f811bb988bd50ce482f20842c5d70a23d0af",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.3/Xero_1.5.3_x64-setup.exe",
+  "size": 337091660,
+  "notes": "# Xero 1.5.3\n\n- 修复工作流上下文传递，保留有界文本输出并正确显示阻塞与等待状态。\n- 修复自动化完成后摘要丢失：从本次运行的持久会话读取真实回复，无回复时明确标记失败。\n- 补充任务中心、知识库、智能体和设置页开发版验收记录。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。\n",
+  "changelog": "# Xero 1.5.3\n\n- 修复工作流上下文传递，保留有界文本输出并正确显示阻塞与等待状态。\n- 修复自动化完成后摘要丢失：从本次运行的持久会话读取真实回复，无回复时明确标记失败。\n- 补充任务中心、知识库、智能体和设置页开发版验收记录。\n\n更新保留本机配置和会话数据。请保存正在进行的工作，再执行安装或重启。\n\nWindows x64 安装包公开发布；源码保留在私有仓库。\n",
+  "releasedAt": "2026-10-06T08:48:34Z",
+  "pub_date": "2026-10-06T08:48:34Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZSU2t0WmExUjFjRVpMYVZveU9UQkdjRmRaTW1GWFozbE1kbWc0V1ZsNGVtUkZSbWRETWtsMGFsWlVjMWhNWVhCRlJ6UkpiUzlEZEdKSUswSXhkVmRPY0ROcU4wVkVTMnRrU0d4Q2JUYzVRVlpuV0RCTWF6SnZOV1lyWVd4YVQxRnZQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpreE1qWTBNelUzQ1dacGJHVTZXR1Z5YjE4eExqVXVNMTk0TmpRdGMyVjBkWEF1Ym5OcGN5NTZhWEFLUnpJeFUzUmhOMGQyWWtOMVJtdHRUa0pMYkhvMU1VSXpURTUyUnpGcWQxZHZXVWR3VTJGd2QycDBjVnAzUXl0SVZHWTNWRWhuT1hkbVkzcHNZVXBwYW5sR1pVTTBPVUpRV1RaR2JFUlpTM0p3UkVodlFuYzlQUW89",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVoyOTBGcFdZMmFXZ3lMdmg4WVl4emRFRmdDMkl0alZUc1hMYXBFRzRJbS9DdGJIK0IxdVdOcDNqN0VES2tkSGxCbTc5QVZnWDBMazJvNWYrYWxaT1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMjY0MzU3CWZpbGU6WGVyb18xLjUuM194NjQtc2V0dXAubnNpcy56aXAKRzIxU3RhN0d2YkN1RmttTkJLbHo1MUIzTE52RzFqd1dvWUdwU2Fwd2p0cVp3QytIVGY3VEhnOXdmY3psYUppanlGZUM0OUJQWTZGbERZS3JwREhvQnc9PQo=",
       "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.3/Xero_1.5.3_x64-setup.nsis.zip"
     }
   }
