@@ -12,7 +12,7 @@
   <a href="https://github.com/huahuaduck/xero-releases/issues">问题反馈</a>
 </p>
 
-<p align="center"><sub>v1.5.0 &nbsp; / &nbsp; Windows x64 &nbsp; / &nbsp; 自备模型连接</sub></p>
+<p align="center"><sub>v1.5.1 &nbsp; / &nbsp; Windows x64 &nbsp; / &nbsp; 自备模型连接</sub></p>
 
 ---
 
@@ -56,9 +56,9 @@
 
 **1. 安装桌面端**
 
-前往 [最新 Release](https://github.com/huahuaduck/xero-releases/releases/latest) 下载安装包。当前版本为 **v1.5.0**，文件名为 `Xero_1.5.0_x64-setup.exe`，适用于 **Windows x64**。
+前往 [最新 Release](https://github.com/huahuaduck/xero-releases/releases/latest) 下载安装包。当前版本为 **v1.5.1**，文件名为 `Xero_1.5.1_x64-setup.exe`，适用于 **Windows x64**。
 
-该版本未提供自动更新签名，请下载后手动安装。
+1.5.0 用户可在设置中检查更新，然后下载安装包覆盖安装。由于旧签名私钥未找到，首次升级需手动安装；1.5.1 已配置新的签名通道，供后续版本一键更新。
 
 **2. 连接自己的模型**
 
@@ -73,10 +73,10 @@
 <details>
 <summary><strong>校验安装包 SHA-256</strong></summary>
 
-下载同一 Release 中的 `.sha256` 文件，在安装包所在目录运行：
+下载同一 Release 中的 `SHA256SUMS.txt` 或 `.sha256` 文件，在安装包所在目录运行：
 
 ```powershell
-Get-FileHash .\Xero_1.5.0_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\Xero_1.5.1_x64-setup.exe -Algorithm SHA256
 ```
 
 将输出与校验文件比对。安装包与校验文件应来自同一版本。
@@ -100,7 +100,7 @@ Get-FileHash .\Xero_1.5.0_x64-setup.exe -Algorithm SHA256
 
 ## 版本与项目说明
 
-**v1.5.0** 更新品牌图标与界面，修复聊天和主页切换、模型默认思考强度、图片链接、删除会话后的列表同步，以及小 V 头像闪烁。详见 [完整发布说明](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.0)。
+**v1.5.1** 修复模型思考强度传递、图片持久化、任务状态收尾和手机访问，改善 MCP 预热及部分启动阻塞，并补齐 Xero 品牌名称。详见 [完整发布说明](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.1)。
 
 - 当前提供 Windows x64 安装包；macOS 安装包尚未发布。
 - 启动速度与 IM 页面卡顿的进一步优化仍在后续计划中。
