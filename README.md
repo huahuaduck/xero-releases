@@ -3,16 +3,16 @@
 </p>
 
 <h1 align="center">Xero</h1>
-<p align="center"><strong>从一个想法，到一份交付。</strong><br>面向个人开发者与小团队的 Windows 本地优先 AI 工作台。</p>
+<p align="center"><strong>从一个想法，到一份交付。</strong><br>面向个人开发者与小团队的 Windows / macOS 本地优先 AI 工作台。</p>
 
 <p align="center">
-  <a href="https://github.com/huahuaduck/xero-releases/releases/latest"><strong>下载 Windows 版 ↗</strong></a> &nbsp; · &nbsp;
+  <a href="https://github.com/huahuaduck/xero-releases/releases/latest"><strong>下载安装包 ↗</strong></a> &nbsp; · &nbsp;
   <a href="#开始使用">开始使用</a> &nbsp; · &nbsp;
   <a href="https://github.com/huahuaduck/xero-releases/releases">更新记录</a> &nbsp; · &nbsp;
   <a href="https://github.com/huahuaduck/xero-releases/issues">问题反馈</a>
 </p>
 
-<p align="center"><sub>v1.5.1 &nbsp; / &nbsp; Windows x64 &nbsp; / &nbsp; 自备模型连接</sub></p>
+<p align="center"><sub>v1.6.0 &nbsp; / &nbsp; Windows x64 · macOS arm64 / x64 &nbsp; / &nbsp; 自备模型连接</sub></p>
 
 ---
 
@@ -56,9 +56,15 @@
 
 **1. 安装桌面端**
 
-前往 [最新 Release](https://github.com/huahuaduck/xero-releases/releases/latest) 下载安装包。当前版本为 **v1.5.1**，文件名为 `Xero_1.5.1_x64-setup.exe`，适用于 **Windows x64**。
+前往 [Xero 1.6.0 Release](https://github.com/huahuaduck/xero-releases/releases/tag/v1.6.0) 下载对应安装包：
 
-1.5.0 用户可在设置中检查更新，然后下载安装包覆盖安装。由于旧签名私钥未找到，首次升级需手动安装；1.5.1 已配置新的签名通道，供后续版本一键更新。
+| 设备 | 安装包 |
+| --- | --- |
+| Windows x64 | `Xero_1.6.0_x64-setup.exe` |
+| Apple Silicon Mac（M1 至 M5 系列） | `Xero_1.6.0_aarch64.dmg` |
+| Intel Mac | `Xero_1.6.0_x64.dmg` |
+
+Windows 运行安装程序；macOS 打开 DMG，将 Xero 拖到 Applications。安装前保存正在进行的工作；覆盖升级保留会话及模型配置。Windows 旧版也可从设置检查更新。
 
 **2. 连接自己的模型**
 
@@ -76,7 +82,7 @@
 下载同一 Release 中的 `SHA256SUMS.txt` 或 `.sha256` 文件，在安装包所在目录运行：
 
 ```powershell
-Get-FileHash .\Xero_1.5.1_x64-setup.exe -Algorithm SHA256
+Get-FileHash .\Xero_1.6.0_x64-setup.exe -Algorithm SHA256
 ```
 
 将输出与校验文件比对。安装包与校验文件应来自同一版本。
@@ -100,9 +106,9 @@ Get-FileHash .\Xero_1.5.1_x64-setup.exe -Algorithm SHA256
 
 ## 版本与项目说明
 
-**v1.5.1** 修复模型思考强度传递、图片持久化、任务状态收尾和手机访问，改善 MCP 预热及部分启动阻塞，并补齐 Xero 品牌名称。详见 [完整发布说明](https://github.com/huahuaduck/xero-releases/releases/tag/v1.5.1)。
+**v1.6.0** 更新主页、对话工作台与安装器界面，改进聊天恢复、停止后的内容保留和知识库作业重试，并修复模型配置及图片编辑问题。详见 [完整发布说明](https://github.com/huahuaduck/xero-releases/releases/tag/v1.6.0)。
 
-- 当前提供 Windows x64 安装包；macOS 安装包尚未发布。
+- 1.6.0 提供 Windows x64、macOS Apple Silicon arm64 和 Intel x64 三种安装包。
 - 启动速度与 IM 页面卡顿的进一步优化仍在后续计划中。
 - 本仓库用于分发安装包、版本说明、校验文件和[自动更新清单](./update/latest.json)。
 - Xero 基于 EvoFlow Agent Runtime 与控制平面构建，源码仓库目前为私有。
