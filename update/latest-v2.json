@@ -1,19 +1,19 @@
 {
-  "size": 337738910,
+  "size": 342054915,
   "minAppVersion": "1.5.0",
-  "changelog": "# Xero 1.5.5",
-  "notes": "# Xero 1.5.5",
-  "pub_date": "2026-10-12T05:11:18Z",
+  "changelog": "# Xero 1.6.0",
+  "notes": "Xero 1.6.0 includes the refreshed workspace UI, session recovery fixes, and Windows/macOS installers. Updater signing is disabled; download and install manually from the public Release.",
+  "pub_date": "2026-10-14T20:20:00Z",
   "assetKind": "installer",
-  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.5/Xero_1.5.5_x64-setup.exe",
-  "releasedAt": "2026-10-12T05:11:18Z",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.0/Xero_1.6.0_x64-setup.exe",
+  "releasedAt": "2026-10-14T20:20:00Z",
   "updateKind": "full",
-  "version": "1.5.5",
+  "version": "1.6.0",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaWRsSDY4Ym95aEZpM0MzNlMyeERtd1ZnN1dVYnhOcFYvYm9yVGR1VnFwdXVRNTdtSnNYR1Jrc3VyL20rY2VDWGJlMFQyMmdMYk5ac2pGZ2FYSTVCZFFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzgxNjIzCWZpbGU6WGVyb18xLjUuNV94NjQtc2V0dXAubnNpcy56aXAKd1BrNFRyL2VCbng0c1N6RTRGZDlNL2dOb3ZoQWlqY1NDalB2R3JVVHlVQjVDS1NxL1lxTm83REFvbXBZSXAzcVdDOTRpVWY3YkVIVGxuLzJZbWRFQmc9PQo=",
-      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.5.5/Xero_1.5.5_x64-setup.nsis.zip"
+      "signature": "",
+      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.0/Xero_1.6.0_x64-setup.exe"
     }
   },
-  "hash": "sha256:9d01d60629b3c57cd6037280d5e5d7fed9ae1fbfb2e8e97eb445a684da4a9209"
+  "hash": "sha256:d472e886eec7f39725f907be2422d4ac02ae9783ccd0e98c6bc56af1dd6c853f"
 }
