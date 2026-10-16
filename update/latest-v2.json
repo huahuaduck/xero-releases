@@ -1,19 +1,20 @@
 {
-  "pub_date": "2026-10-16T00:00:00Z",
-  "changelog": "# Xero 1.6.1\n\n本次 Windows 更新包含智能体专家库、模型配置改进，以及界面、消息发送和旧版数据兼容修复。\n\n## 智能体专家库\n- 接入 Agency Agents 专家库，专家名称和介绍改写为便于理解的中文。\n- 支持按需下载安装专家、批量安装和本地缓存，减少安装包内置资源体积。\n- 调整智能体列表排序，让已安装智能体优先展示，并优化分页和卡片排列。\n\n## 模型配置\n- 添加接口后可检测连通性，自动获取模型列表，支持选择并批量添加模型，减少手动填写。\n- 完善不同接口格式的模型列表获取与兼容处理。\n- 完善模型推理、图片和上下文能力标识，修复 Claude Opus、Fable、Sonnet 等模型能力显示不完整的问题。\n- 补充火山方舟 Agent Plan 兜底模型的能力信息。\n\n## 界面和稳定性\n- 修复液态玻璃背景资源加载失败时出现棋盘格的问题。\n- 修复深色模式下部分浮层、扫码层的显示问题，调整相关页面布局。\n- 修复飞书、微信消息发送中的重试与去重问题。\n- 完善远程 WebUI 认证兼容和 Windows 手机端访问布局。\n\n## 升级和数据兼容\n- 支持 XERO_HOME、XERO_DB_PATH，同时兼容旧版环境变量和已有数据路径。\n- 保留旧 SQLite 数据库原位置，启动时不自动搬移或删除旧数据库。\n- Windows 用户可退出 Xero 后运行安装包，覆盖安装升级，保留原有配置与历史数据。\n\n本次仅发布 Windows x64 安装包，macOS 安装包暂不生成。\n\n已知问题：软件内一键升级的签名尚未补齐，目前请下载安装包手动覆盖安装。“查看 Xero 更新说明”按钮无响应的问题留待后续版本修复。\r\n",
+  "version": "1.6.1",
+  "minAppVersion": "1.6.0",
+  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.1/Xero_1.6.1_x64-setup.exe",
+  "size": 342098137,
+  "hash": "sha256:2072f26dd9056cc81e591b903b779ce6b603891c3bb9758c0686c28df325cc6e",
+  "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVYrRFJGT0ppSGVXNkpsRFRpL3V1S09oYlhxcDFYbStUWkMrVmc5TlpFTXJpTjc1YUF0aTZzdlZrR0V1RzhSK2ZoU1FYMmwwYy90dEVsNWRHQjNIREE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTA5MDU1CWZpbGU6WGVyb18xLjYuMV94NjQtc2V0dXAuZXhlCitNVDZsd3hOTExZRnRuejdPUklZaFh6Q1hOeGZmVEMzSXdJSkE1OUYzdDVzTDNXK1pDZHFXeDNMWW9BZFBXNm9tRmt3SnJMVHh5Z2o1ZXRVM3JZRUNRPT0K",
+  "pub_date": "2026-10-16T00:04:17.849511Z",
+  "releasedAt": "2026-10-16T00:04:17.849511Z",
+  "changelog": "# Xero 1.6.1\n\n本次 Windows 更新包含智能体专家库、模型配置改进，以及界面、消息发送和旧版数据兼容修复。\n\n## 智能体专家库\n- 重新审核 277 位专家的中文名称和介绍，移除 50 份误收录的说明、示例和目录文件，修复大量同名卡片。\n- 未安装专家支持离线预览用途，确认后才安装；修正未安装状态、工具数量及菜单显示。\n- 修复已安装专家在我的智能体中的显示，保留用户自定义名称、介绍和头像；防止重复安装，改进批量安装进度和失败提示。\n- 接入 Agency Agents 专家库，专家名称和介绍改写为便于理解的中文。\n- 支持按需下载安装专家、批量安装和本地缓存，减少安装包内置资源体积。\n- 调整智能体列表排序，让已安装智能体优先展示，并优化分页和卡片排列。\n\n## 模型配置\n- 添加接口后可检测连通性，自动获取模型列表，支持选择并批量添加模型，减少手动填写。\n- 完善不同接口格式的模型列表获取与兼容处理。\n- 完善模型推理、图片和上下文能力标识，修复 Claude Opus、Fable、Sonnet 等模型能力显示不完整的问题。\n- 补充火山方舟 Agent Plan 兜底模型的能力信息。\n\n## 界面和稳定性\n- 修复液态玻璃背景资源加载失败时出现棋盘格的问题。\n- 修复深色模式下部分浮层、扫码层的显示问题，调整相关页面布局。\n- 修复飞书、微信消息发送中的重试与去重问题。\n- 完善远程 WebUI 认证兼容和 Windows 手机端访问布局。\n\n## 升级和数据兼容\n- 支持 XERO_HOME、XERO_DB_PATH，同时兼容旧版环境变量和已有数据路径。\n- 保留旧 SQLite 数据库原位置，启动时不自动搬移或删除旧数据库。\n- Windows 用户可退出 Xero 后运行安装包，覆盖安装升级，保留原有配置与历史数据。\n\n本次仅发布 Windows x64 安装包，macOS 安装包暂不生成。\n\n已补齐 Windows 一键升级签名，并通过与 1.6 内置公钥一致的签名验证。1.6 用户可在软件中检查更新；已经安装旧 1.6.1 的用户因版本号相同，请重新下载安装包覆盖安装。\n\n已知问题：“查看 Xero 更新说明”按钮无响应的问题留待后续版本修复。\n",
+  "notes": "修复专家库重名和文档误收录，277 位专家均有独立中文介绍；未安装专家可先预览再安装；修复安装状态、排序和重复安装问题。包含模型自动获取、能力识别和 1.6 BUG 修复，已补齐 Windows 一键升级签名。",
+  "assetKind": "installer",
+  "updateKind": "full",
   "platforms": {
     "windows-x86_64": {
-      "signature": "",
-      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.1/Xero_1.6.1_x64-setup.exe"
+      "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.1/Xero_1.6.1_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVRSktZa1R1cEZLaVYrRFJGT0ppSGVXNkpsRFRpL3V1S09oYlhxcDFYbStUWkMrVmc5TlpFTXJpTjc1YUF0aTZzdlZrR0V1RzhSK2ZoU1FYMmwwYy90dEVsNWRHQjNIREE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMTA5MDU1CWZpbGU6WGVyb18xLjYuMV94NjQtc2V0dXAuZXhlCitNVDZsd3hOTExZRnRuejdPUklZaFh6Q1hOeGZmVEMzSXdJSkE1OUYzdDVzTDNXK1pDZHFXeDNMWW9BZFBXNm9tRmt3SnJMVHh5Z2o1ZXRVM3JZRUNRPT0K"
     }
-  },
-  "url": "https://github.com/huahuaduck/xero-releases/releases/download/v1.6.1/Xero_1.6.1_x64-setup.exe",
-  "notes": "新增中文智能体专家库，支持按需下载和批量安装；支持接口连通检测、自动获取模型列表与批量添加；完善推理、图片和上下文能力标识；修复液态玻璃背景、深色浮层、飞书/微信消息发送及远程访问兼容；完善旧版配置和数据库兼容。目前请下载安装包手动覆盖升级。",
-  "releasedAt": "2026-10-16T00:00:00Z",
-  "size": 342056218,
-  "updateKind": "full",
-  "assetKind": "installer",
-  "minAppVersion": "1.6.0",
-  "hash": "sha256:22f4b758dffe78f94cde76c81782fba297b968c0a8c2df2b601f9043ff06b388",
-  "version": "1.6.1"
+  }
 }
